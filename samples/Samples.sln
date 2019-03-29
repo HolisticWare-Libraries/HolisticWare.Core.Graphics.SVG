@@ -1,15 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{E4FF1998-F77B-4D95-A536-038BC3F13E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.Blazor.Server", "WebApplication.Blazor.Server\WebApplication.Blazor.Server.csproj", "{7B36C98D-6E12-43CE-89D5-731AAC964AAA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{85D8F5A9-013D-4B75-9254-4AE2D413F280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.Blazor.Client", "WebApplication.Blazor.Client\WebApplication.Blazor.Client.csproj", "{6B774AF0-84FC-4C5E-943E-D77A0FBCB04D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisticWare.Core.Graphics.SVG", "..\source\HolisticWare.Core.Graphics.SVG\HolisticWare.Core.Graphics.SVG.csproj", "{50F02746-840E-47B8-8E5D-EC21F2071307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.Blazor.Shared", "WebApplication.Blazor.Shared\WebApplication.Blazor.Shared.csproj", "{60B7DD70-4DBC-47CE-99DB-4B07DA7E229D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.SVG.Test", "App.SVG.Test\App.SVG.Test.csproj", "{CFF74AD2-09ED-443D-9569-9F7D8412D3B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication.RazorPages", "WebApplication.RazorPages\WebApplication.RazorPages.csproj", "{7ABB48EE-0635-4FD2-AB65-0084FD958C74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.SVG.Test", "App.SVG.Test\App.SVG.Test.csproj", "{F55D3616-4E65-46E5-920E-508E33683C67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{4EF7A4E6-6100-49E1-9088-72B24C87E1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{3905BE81-E3BC-4AFA-AB68-6DAB2FE16C0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HolisticWare.Core.Graphics.SVG", "..\source\HolisticWare.Core.Graphics.SVG\HolisticWare.Core.Graphics.SVG.csproj", "{C8A9E468-887B-4067-AE6C-0734C63D57FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "externals", "externals", "{7C7D25F8-D9AA-4F16-962C-AA21BF7E63BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,16 +27,39 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{50F02746-840E-47B8-8E5D-EC21F2071307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{50F02746-840E-47B8-8E5D-EC21F2071307}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{50F02746-840E-47B8-8E5D-EC21F2071307}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{50F02746-840E-47B8-8E5D-EC21F2071307}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFF74AD2-09ED-443D-9569-9F7D8412D3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFF74AD2-09ED-443D-9569-9F7D8412D3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFF74AD2-09ED-443D-9569-9F7D8412D3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFF74AD2-09ED-443D-9569-9F7D8412D3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B36C98D-6E12-43CE-89D5-731AAC964AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B36C98D-6E12-43CE-89D5-731AAC964AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B36C98D-6E12-43CE-89D5-731AAC964AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B36C98D-6E12-43CE-89D5-731AAC964AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B774AF0-84FC-4C5E-943E-D77A0FBCB04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B774AF0-84FC-4C5E-943E-D77A0FBCB04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B774AF0-84FC-4C5E-943E-D77A0FBCB04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B774AF0-84FC-4C5E-943E-D77A0FBCB04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B7DD70-4DBC-47CE-99DB-4B07DA7E229D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B7DD70-4DBC-47CE-99DB-4B07DA7E229D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B7DD70-4DBC-47CE-99DB-4B07DA7E229D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B7DD70-4DBC-47CE-99DB-4B07DA7E229D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABB48EE-0635-4FD2-AB65-0084FD958C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABB48EE-0635-4FD2-AB65-0084FD958C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABB48EE-0635-4FD2-AB65-0084FD958C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABB48EE-0635-4FD2-AB65-0084FD958C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55D3616-4E65-46E5-920E-508E33683C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55D3616-4E65-46E5-920E-508E33683C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55D3616-4E65-46E5-920E-508E33683C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55D3616-4E65-46E5-920E-508E33683C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A9E468-887B-4067-AE6C-0734C63D57FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A9E468-887B-4067-AE6C-0734C63D57FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A9E468-887B-4067-AE6C-0734C63D57FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A9E468-887B-4067-AE6C-0734C63D57FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{50F02746-840E-47B8-8E5D-EC21F2071307} = {E4FF1998-F77B-4D95-A536-038BC3F13E19}
+		{C8A9E468-887B-4067-AE6C-0734C63D57FC} = {3905BE81-E3BC-4AFA-AB68-6DAB2FE16C0F}
+		{7C7D25F8-D9AA-4F16-962C-AA21BF7E63BC} = {3905BE81-E3BC-4AFA-AB68-6DAB2FE16C0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2367D9B9-43C9-460C-9E08-06B9990D6771}
 	EndGlobalSection
 EndGlobal
